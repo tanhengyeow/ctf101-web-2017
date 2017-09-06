@@ -1,0 +1,31 @@
+.centered-wrapper {
+    position: relative;
+    text-align: center;
+}
+.centered-wrapper:before {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 0; height: 100%;
+    vertical-align: middle;
+}
+.centered-content {
+    display: inline-block;
+    vertical-align: middle;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: static;
+    top: 0;
+    width: 100%;
+}
+.navbar a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 50px;
+}

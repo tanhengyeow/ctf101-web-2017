@@ -1,2 +1,7 @@
-# ctf101-web-2017
-Challenges for NUS Greyhats CTF101 Web Security (2017)
+# NUS Greyhats CTF101 Web Security (2017)
+
+- [Instructions for setting up the challenges locally](./setup.md)
+
+## Work In Progress
+
+- [Slides]()

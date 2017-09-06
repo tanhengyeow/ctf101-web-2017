@@ -1,0 +1,197 @@
+.centered-wrapper {
+    position: relative;
+    text-align: center;
+}
+.centered-wrapper:before {
+    content: "";
+    position: relative;
+    display: inline-block;
+    width: 0; height: 100%;
+    vertical-align: middle;
+}
+.centered-content {
+    display: inline-block;
+    vertical-align: middle;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: static;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: center;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+.form-style-7{
+    max-width:400px;
+    margin:20px auto;
+    background:#fff;
+    border-radius:2px;
+    padding:20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-7 h1{
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: 0px 0px 20px 0px;
+    color: #5C5C5C;
+    font-size:x-large;
+}
+.form-style-7 ul{
+    list-style:none;
+    padding:0;
+    margin:0;   
+}
+.form-style-7 li{
+    display: block;
+    padding: 9px;
+    border:1px solid #DDDDDD;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+.form-style-7 li:last-child{
+    border:none;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.form-style-7 li > label{
+    display: block;
+    float: left;
+    margin-top: -19px;
+    background: #FFFFFF;
+    height: 14px;
+    padding: 2px 5px 2px 5px;
+    color: #050000;
+    font-size: 14px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-style-7 input[type="text"],
+.form-style-7 textarea,
+.form-style-7 select 
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-7 input[type="text"]:focus,
+.form-style-7 textarea:focus,
+.form-style-7 select:focus 
+{
+}
+.form-style-7 li > span{
+    background: #F3F3F3;
+    display: block;
+    padding: 3px;
+    margin: 0 -9px -9px -9px;
+    text-align: center;
+    color: #C0C0C0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+.form-style-7 textarea{
+    resize:none;
+}
+.form-style-7 input[type="submit"],
+.form-style-7 input[type="button"]{
+    background: #2471FF;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 3px solid #5994FF;
+    border-radius: 3px;
+    color: #D2E2FF;
+}
+.form-style-7 input[type="submit"]:hover,
+.form-style-7 input[type="button"]:hover{
+    background: #6B9FFF;
+    color:#fff;
+}
+
+.col2-3 article ol{
+    list-style: decimal; 
+    padding: 0 0 0 20px;
+}
+
+.faq li{
+    border-bottom: 1px solid #D9DADA; 
+    color:#0066AA; 
+    padding: 20px 0;
+}
+
+.faq li .titulo, .faq li .resposta{
+    color:#000;
+}
+
+.faq li .resposta{
+    display: block; 
+    max-height: 0; 
+    overflow: hidden; 
+    clear: both; 
+    transition: all 1s linear;
+}
+
+.faq li .titulo{
+    font-weight: bold; 
+    display: inline-block; 
+}
+
+.faq li label{
+    cursor: pointer; 
+    display: inline-block;
+}
+.faq li input[type=checkbox]{
+    display: inline;
+}
+/* Made blue and red to you change for your bg img open/close states */
+.faq li input[type=checkbox]:after{
+    width: 13px; 
+    height: 13px; 
+    content: ""; 
+    background: red; 
+    display: block;
+}
+
+.faq li input[type=checkbox]:checked:after{
+    background: blue;
+}
+.faq li input[type=checkbox]:checked + .resposta{ 
+    max-height:100px;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
